@@ -1,0 +1,152 @@
+Pdex #,Species Names,Evo #,Avail.,Type 1,Type 2,Attack,Defense,Stamina,Tankiness,Min IV CP Cap,Max IV CP Cap,Jumps/min,Jump Duration (s),Base Catch%,Base Flee%,Standard Move 1,Standard Move 2,Special Move 1,Special Move 2,Special Move 3,Special Move 4,SP.ATK,SP.DEF,SPEED
+1,Bulbasaur,3,Yes,Grass,Poison,126,126,90,57,838,1072,6.00,1.15,16%,10%,Vine Whip,Tackle,Sludge Bomb,Seed Bomb,Power Whip,,65,65,45
+2,Ivysaur,2,Yes,Grass,Poison,156,158,120,95,1342,1632,2.61,1.50,8%,7%,Razor Leaf,Vine Whip,Sludge Bomb,Solar Beam,Power Whip,,80,80,60
+3,Venusaur,1,Yes,Grass,Poison,198,200,160,160,2212,258,5.45,1.25,4%,5%,Razor Leaf,Vine Whip,Sludge Bomb,Petal Blizzard,Solar Beam,,100,100,80
+4,Charmander,3,Yes,Fire,,128,108,78,42,734,955,02.07,1.25,16%,10%,Ember,Scratch,Flame Charge,Flame Burst,Flamethrower,,60,50,65
+5,Charmeleon,2,Yes,Fire,,160,140,116,81,1273,1557,2.61,1.00,8%,7%,Ember,Scratch,Fire Punch,Flame Burst,Flamethrower,,80,65,80
+6,Charizard,1,Yes,Fire,Flying,212,182,156,142,2231,2602,5.45,1.00,4%,5%,Ember,Wing Attack,Fire Blast,Dragon Claw,Flamethrower,,109,85,100
+7,Squirtle,3,Yes,Water,,112,142,88,62,782,1009,6.00,1.00,16%,10%,Bubble,Tackle,Aqua Jet,Aqua Tail,Water Pulse,,50,64,43
+8,Wartortle,2,Yes,Water,,144,176,118,104,1296,1583,2.61,1.25,8%,7%,Water Gun,Bite,Aqua Jet,Ice Beam,Hydro Pump,,65,80,58
+9,Blastoise,1,Yes,Water,,186,222,158,175,2176,2542,4.29,1.25,4%,5%,Water Gun,Bite,Flash Cannon,Ice Beam,Hydro Pump,,85,105,78
+10,Caterpie,3,Yes,Bug,,62,66,90,30,298,444,6.00,0.00,40%,20%,Bug Bite,Tackle,Struggle,,,,20,20,45
+11,Metapod,2,Yes,Bug,,56,86,100,43,324,478,0.02,1.00,20%,9%,Bug Bite,Tackle,Struggle,,,,25,25,30
+12,Butterfree,1,Yes,Bug,Flying,144,144,120,86,1182,1455,10.00,1.00,10%,6%,Bug Bite,Confusion,Bug Buzz,Psychic,Signal Beam,,90,80,70
+13,Weedle,3,Yes,Bug,Poison,68,64,80,26,304,449,6.00,1.25,40%,20%,Bug Bite,Poison Sting,Struggle,,,,20,20,50
+14,Kakuna,2,Yes,Bug,Poison,62,82,90,37,333,485,0.02,0.00,20%,9%,Bug Bite,Poison Sting,Struggle,,,,25,25,35
+15,Beedrill,1,Yes,Bug,Poison,144,130,130,85,1169,144,10.00,1.00,10%,6%,Bug Bite,Poison Jab,Sludge Bomb,Aerial Ace,X-Scissor,,45,80,75
+16,Pidgey,3,Yes,Normal,Flying,94,90,80,36,498,680,6.00,1.40,40%,20%,Quick Attack,Tackle,Twister,Aerial Ace,Air Cutter,,35,35,56
+17,Pidgeotto,2,Yes,Normal,Flying,126,122,126,77,976,1224,6.00,1.00,20%,9%,Wing Attack,Steel Wing,Twister,Aerial Ace,Air Cutter,,50,50,71
+18,Pidgeot,1,Yes,Normal,Flying,170,166,166,138,1763,2091,10.00,1.00,10%,6%,Wing Attack,Steel Wing,Hurricane,Aerial Ace,Air Cutter,,70,70,101
+19,Rattata,2,Yes,Normal,,92,86,60,26,413,582,6.00,0.90,40%,20%,Tackle,Quick Attack,Dig,Hyper Fang,Body Slam,,25,35,72
+20,Raticate,1,Yes,Normal,,146,150,110,83,1171,1444,2.61,1.00,16%,7%,Bite,Quick Attack,Dig,Hyper Fang,Hyper Beam,,50,70,97
+21,Spearow,2,Yes,Normal,Flying,102,78,80,31,503,687,6.00,1.25,40%,15%,Peck,Quick Attack,Aerial Ace,Drill Peck,Twister,,31,31,70
+22,Fearow,1,Yes,Normal,Flying,168,146,130,95,1446,1746,7.50,1.00,16%,7%,Peck,Steel Wing,Aerial Ace,Drill Run,Twister,,61,61,100
+23,Ekans,2,Yes,Poison,,112,112,70,39,619,824,02.07,1.25,40%,15%,Poison Sting,Acid,Wrap,Sludge Bomb,Gunk Shot,,40,54,55
+24,Arbok,1,Yes,Poison,,166,166,120,100,1463,1767,2.61,1.00,16%,7%,Bite,Acid,Dark Pulse,Sludge Wave,Gunk Shot,,65,79,80
+25,Pikachu,2,Yes,Electric,,124,108,70,38,673,888,6.00,1.00,16%,10%,Thunder Shock,Quick Attack,Discharge,Thunderbolt,Thunder,,50,50,90
+26,Raichu,1,Yes,Electric,,200,154,120,92,1698,2028,10.00,1.25,8%,6%,Thunder Shock,Spark,Brick Break,Thunder Punch,Thunder,,90,80,110
+27,Sandshrew,2,Yes,Ground,,90,114,100,57,600,799,7.50,1.00,40%,10%,Scratch,Mud Shot,Dig,Rock Slide,Rock Tomb,,20,30,40
+28,Sandslash,1,Yes,Ground,,150,172,150,129,1505,181,5.45,1.00,16%,6%,Metal Claw,Mud Shot,Earthquake,Rock Tomb,Bulldoze,,45,55,65
+29,Nidoran F,3,Yes,Poison,,100,104,110,57,668,876,02.07,1.25,40%,15%,Bite,Poison Sting,Poison Fang,Body Slam,Sludge Bomb,,40,40,41
+30,Nidorina,2,Yes,Poison,,132,136,140,95,1138,1405,2.61,1.00,20%,7%,Bite,Poison Sting,Poison Fang,Dig,Sludge Bomb,,55,55,56
+31,Nidoqueen,1,Yes,Poison,Ground,184,190,180,171,2125,2485,4.29,1.00,10%,5%,Poison Jab,Bite,Earthquake,Sludge Wave,Stone Edge,,75,85,76
+32,Nidoran M,3,Yes,Poison,,110,94,92,43,639,843,02.07,1.00,40%,15%,Peck,Poison Sting,Horn Attack,Body Slam,Sludge Bomb,,40,40,50
+33,Nidorino,2,Yes,Poison,,142,128,122,78,1108,1372,2.61,1.00,20%,7%,Poison Jab,Poison Sting,Horn Attack,Dig,Sludge Bomb,,55,55,65
+34,Nidoking,1,Yes,Poison,Ground,204,170,162,138,2114,2475,4.29,1.00,10%,5%,Poison Jab,Fury Cutter,Earthquake,Sludge Wave,Megahorn,,85,75,85
+35,Clefairy,2,Yes,Fairy,,116,124,140,87,955,1201,7.50,1.25,24%,10%,Pound,Zen Headbutt,Disarming Voice,Body Slam,Moonblast,,60,65,35
+36,Clefable,1,Yes,Fairy,,178,178,190,169,2045,2398,15.00,1.25,8%,6%,Pound,Zen Headbutt,Dazzling Gleam,Psychic,Moonblast,,95,90,60
+37,Vulpix,2,Yes,Fire,,106,118,76,45,627,831,6.00,1.00,24%,10%,Quick Attack,Ember,Body Slam,Flamethrower,Flame Charge,,50,65,65
+38,Ninetales,1,Yes,Fire,,176,194,146,142,185,2188,12.00,1.25,8%,6%,Feint Attack,Ember,Heat Wave,Flamethrower,Fire Blast,,81,100,100
+39,Jigglypuff,2,Yes,Normal,Fairy,98,54,230,62,682,918,6.00,3.00,40%,10%,Pound,Feint Attack,Disarming Voice,Body Slam,Dazzling Gleam,,45,25,20
+40,Wigglytuff,1,Yes,Normal,Fairy,168,108,280,151,1825,2177,15.00,1.25,16%,6%,Pound,Feint Attack,Dazzling Gleam,Hyper Beam,Play Rough,,85,50,45
+41,Zubat,2,Yes,Poison,Flying,88,90,80,36,466,643,6.00,1.00,40%,20%,Quick Attack,Bite,Poison Fang,Air Cutter,Sludge Bomb,,30,40,55
+42,Golbat,1,Yes,Poison,Flying,164,164,150,123,1607,1921,10.00,1.00,16%,7%,Wing Attack,Bite,Poison Fang,Air Cutter,Ominous Wind,,65,75,90
+43,Oddish,3,Yes,Grass,Poison,134,130,90,59,905,1148,6.00,1.00,48%,15%,Razor Leaf,Acid,Seed Bomb,Sludge Bomb,Moonblast,,75,65,30
+44,Gloom,2,Yes,Grass,Poison,162,158,120,95,1393,1689,7.50,1.00,24%,7%,Razor Leaf,Acid,Petal Blizzard,Sludge Bomb,Moonblast,,85,75,40
+45,Vileplume,1,Yes,Grass,Poison,202,190,150,143,213,2493,5.45,1.00,12%,5%,Razor Leaf,Acid,Petal Blizzard,Solar Beam,Moonblast,,110,90,50
+46,Paras,2,Yes,Bug,Grass,122,120,70,42,698,917,02.07,1.10,32%,15%,Scratch,Bug Bite,Cross Poison,X-Scissor,Seed Bomb,,45,55,25
+47,Parasect,1,Yes,Bug,Grass,162,170,120,102,1445,1747,3.53,1.25,16%,7%,Bug Bite,Fury Cutter,Cross Poison,X-Scissor,Solar Beam,,60,80,30
+48,Venonat,2,Yes,Bug,Poison,108,118,120,71,803,1029,6.00,1.25,40%,15%,Bug Bite,Confusion,Poison Fang,Psybeam,Signal Beam,,40,55,45
+49,Venomoth,1,Yes,Bug,Poison,172,154,140,108,1577,189,10.00,1.00,16%,7%,Bug Bite,Confusion,Poison Fang,Psychic,Bug Buzz,,90,75,90
+50,Diglett,2,Yes,Ground,,108,86,20,9,280,457,02.07,0.00,40%,10%,Mud Slap,Scratch,Dig,Mud Bomb,Rock Tomb,,35,45,95
+51,Dugtrio,1,Yes,Ground,,148,140,70,49,915,1169,02.07,0.00,16%,6%,Sucker Punch,Mud Slap,Earthquake,Mud Bomb,Stone Edge,,50,70,120
+52,Meowth,2,Yes,Normal,,104,94,80,38,563,756,02.07,1.00,40%,15%,Scratch,Bite,Night Slash,Dark Pulse,Body Slam,,40,40,90
+53,Persian,1,Yes,Normal,,156,146,130,95,1342,1632,7.50,1.25,16%,7%,Scratch,Feint Attack,Night Slash,Power Gem,Play Rough,,65,65,115
+54,Psyduck,2,Yes,Water,,132,112,100,56,873,111,6.00,1.00,40%,10%,Water Gun,Zen Headbutt,Psybeam,Aqua Tail,Cross Chop,,65,50,55
+55,Golduck,1,Yes,Water,,194,176,160,141,2033,2387,12.00,1.00,16%,6%,Water Gun,Confusion,Psychic,Hydro Pump,Ice Beam,,95,80,85
+56,Mankey,2,Yes,Fighting,,122,96,80,38,668,879,02.07,1.00,40%,10%,Karate Chop,Scratch,Cross Chop,Low Sweep,Brick Break,,35,45,70
+57,Primeape,1,Yes,Fighting,,178,150,130,98,1552,1865,3.53,1.00,16%,6%,Low Kick,Karate Chop,Cross Chop,Low Sweep,Night Slash,,60,70,95
+58,Growlithe,2,Yes,Fire,,156,110,110,61,1072,1335,6.00,1.00,24%,10%,Ember,Bite,Flame Wheel,Body Slam,Flamethrower,,70,50,60
+59,Arcanine,1,Yes,Fire,,230,180,180,162,2586,2984,15.00,1.25,8%,6%,Fire Fang,Bite,Fire Blast,Flamethrower,Bulldoze,,100,80,95
+60,Poliwag,3,Yes,Water,,108,98,80,39,597,796,6.00,1.00,40%,15%,Bubble,Mud Shot,Bubble Beam,Mud Bomb,Body Slam,,40,40,90
+61,Poliwhirl,2,Yes,Water,,132,132,130,86,108,134,7.50,0.80,20%,7%,Bubble,Mud Shot,Scald,Mud Bomb,Bubble Beam,,50,50,90
+62,Poliwrath,1,Yes,Water,Fighting,180,202,180,182,2144,2505,5.45,01.05,10%,5%,Bubble,Mud Shot,Hydro Pump,Submission,Ice Punch,,70,90,70
+63,Abra,3,Yes,Psychic,,110,76,50,19,424,600,02.07,1.00,40%,99%,Zen Headbutt,,Psyshock,Signal Beam,Shadow Ball,,105,55,90
+64,Kadabra,2,Yes,Psychic,,150,112,80,45,887,1132,10.00,1.25,20%,7%,Psycho Cut,Confusion,Psybeam,Dazzling Gleam,Shadow Ball,,120,70,105
+65,Alakazam,1,Yes,Psychic,,186,152,110,84,1502,1814,15.00,1.00,10%,5%,Psycho Cut,Confusion,Psychic,Dazzling Gleam,Shadow Ball,,135,95,120
+66,Machop,3,Yes,Fighting,,118,96,140,67,854,109,2.61,1.00,40%,10%,Low Kick,Karate Chop,Low Sweep,Brick Break,Cross Chop,,35,35,35
+67,Machoke,2,Yes,Fighting,,154,144,160,115,146,1761,4.29,1.00,20%,7%,Low Kick,Karate Chop,Submission,Brick Break,Cross Chop,,50,60,45
+68,Machamp,1,Yes,Fighting,,198,180,180,162,2226,2594,7.50,1.00,10%,5%,Bullet Punch,Karate Chop,Stone Edge,Submission,Cross Chop,,65,85,55
+69,Bellsprout,3,Yes,Grass,Poison,158,78,100,39,872,1117,6.00,1.20,40%,15%,Vine Whip,Acid,Power Whip,Sludge Bomb,Wrap,,70,30,40
+70,Weepinbell,2,Yes,Grass,Poison,190,110,130,72,1419,1724,7.50,1.00,20%,7%,Razor Leaf,Acid,Power Whip,Sludge Bomb,Seed Bomb,,85,45,55
+71,Victreebel,1,Yes,Grass,Poison,222,152,160,122,2162,2531,4.29,1.00,10%,5%,Razor Leaf,Acid,Leaf Blade,Sludge Bomb,Solar Beam,,100,70,70
+72,Tentacool,2,Yes,Water,Poison,106,136,80,54,691,905,2.61,1.00,40%,15%,Bubble,Poison Sting,Bubble Beam,Water Pulse,Wrap,,50,100,70
+73,Tentacruel,1,Yes,Water,Poison,170,196,160,157,188,222,5.45,1.00,16%,7%,Acid,Poison Jab,Hydro Pump,Sludge Wave,Blizzard,,80,120,100
+74,Geodude,3,Yes,Rock,Ground,106,118,80,47,643,849,7.50,1.00,40%,10%,Rock Throw,Tackle,Rock Slide,Rock Tomb,Dig,,30,30,20
+75,Graveler,2,Yes,Rock,Ground,142,156,110,86,1162,1434,4.29,1.20,20%,7%,Rock Throw,Mud Slap,Dig,Stone Edge,Rock Slide,,45,45,35
+76,Golem,1,Yes,Rock,Ground,176,198,160,158,1957,2303,7.50,1.20,10%,5%,Rock Throw,Mud Slap,Stone Edge,Ancient Power,Earthquake,,55,65,45
+77,Ponyta,2,Yes,Fire,,168,138,100,69,1233,1516,7.50,0.95,32%,10%,Tackle,Ember,Flame Charge,Flame Wheel,Fire Blast,,65,65,90
+78,Rapidash,1,Yes,Fire,,200,170,130,111,1857,2199,10.00,1.00,12%,6%,Low Kick,Ember,Fire Blast,Drill Run,Heat Wave,,80,80,105
+79,Slowpoke,2,Yes,Water,Psychic,110,110,180,99,967,1219,7.50,1.00,40%,10%,Water Gun,Confusion,Water Pulse,Psyshock,Psychic,,40,40,15
+80,Slowbro,1,Yes,Water,Psychic,184,198,190,188,2229,2597,20.00,1.00,16%,6%,Water Gun,Confusion,Water Pulse,Psychic,Ice Beam,,100,80,30
+81,Magnemite,2,Yes,Electric,Steel,128,138,50,35,664,891,7.50,1.00,40%,10%,Spark,Thunder Shock,Discharge,Magnet Bomb,Thunderbolt,,95,55,45
+82,Magneton,1,Yes,Electric,Steel,186,180,100,90,1559,188,12.00,1.00,16%,6%,Spark,Thunder Shock,Discharge,Magnet Bomb,Flash Cannon,,120,70,70
+83,Farfetch'd,1,Yes,Normal,Flying,138,132,104,69,101,1264,02.07,1.25,24%,9%,Cut,Fury Cutter,Aerial Ace,Air Cutter,Leaf Blade,,58,62,60
+84,Doduo,2,Yes,Normal,Flying,126,96,70,34,645,855,6.00,1.00,40%,10%,Peck,Quick Attack,Drill Peck,Aerial Ace,Swift,,35,35,75
+85,Dodrio,1,Yes,Normal,Flying,182,150,120,90,1525,1836,10.00,1.25,16%,6%,Feint Attack,Steel Wing,Drill Peck,Aerial Ace,Air Cutter,,60,60,100
+86,Seel,2,Yes,Water,,104,138,130,90,870,1107,6.00,0.90,40%,9%,Ice Shard,Lick,Aqua Jet,Icy Wind,Aqua Tail,,45,70,45
+87,Dewgong,1,Yes,Water,Ice,156,192,180,173,1811,2146,12.00,1.00,16%,6%,Frost Breath,Ice Shard,Icy Wind,Aqua Jet,Blizzard,,70,95,70
+88,Grimer,2,Yes,Poison,,124,110,160,88,1027,1284,2.61,1.00,40%,10%,Poison Jab,Mud Slap,Sludge,Mud Bomb,Sludge Bomb,,40,50,25
+89,Muk,1,Yes,Poison,,180,188,210,197,2234,2603,7.50,1.25,16%,6%,Lick,Poison Jab,Dark Pulse,Gunk Shot,Sludge Wave,,65,100,50
+90,Shellder,2,Yes,Water,,120,112,60,34,614,823,2.61,1.20,40%,10%,Ice Shard,Tackle,Bubble Beam,Water Pulse,Icy Wind,,45,25,40
+91,Cloyster,1,Yes,Water,Ice,196,196,100,98,1714,2053,20.00,1.00,16%,6%,Frost Breath,Ice Shard,Icy Wind,Hydro Pump,Blizzard,,85,45,70
+92,Gastly,3,Yes,Ghost,Poison,136,82,60,25,596,804,02.07,1.00,32%,10%,Lick,Sucker Punch,Ominous Wind,Dark Pulse,Sludge Bomb,,100,35,80
+93,Haunter,2,Yes,Ghost,Poison,172,118,90,53,1107,138,2.61,1.00,16%,7%,Shadow Claw,Lick,Shadow Ball,Dark Pulse,Sludge Bomb,,115,55,95
+94,Gengar,1,Yes,Ghost,Poison,204,156,120,94,1743,2078,4.29,1.30,8%,5%,Sucker Punch,Shadow Claw,Shadow Ball,Dark Pulse,Sludge Bomb,,130,75,110
+95,Onix,1,Yes,Rock,Ground,90,186,70,65,641,857,3.53,1.00,16%,9%,Rock Throw,Tackle,Rock Slide,Stone Edge,Iron Head,,30,45,70
+96,Drowzee,2,Yes,Psychic,,104,140,120,84,842,1075,7.50,1.25,40%,10%,Pound,Confusion,Psybeam,Psyshock,Psychic,,43,90,42
+97,Hypno,1,Yes,Psychic,,162,196,170,167,1847,2184,5.45,0.80,16%,6%,Zen Headbutt,Confusion,Psyshock,Psychic,Shadow Ball,,73,115,67
+98,Krabby,2,Yes,Water,,116,110,60,33,589,792,2.61,1.00,40%,15%,Bubble,Mud Shot,Vice Grip,Bubble Beam,Water Pulse,,25,25,50
+99,Kingler,1,Yes,Water,,178,168,110,92,1511,1823,7.50,0.80,16%,7%,Metal Claw,Mud Shot,Vice Grip,X-Scissor,Water Pulse,,50,50,75
+100,Voltorb,2,Yes,Electric,,102,124,80,50,635,840,6.00,1.20,40%,10%,Spark,Tackle,Discharge,Thunderbolt,Signal Beam,,55,55,100
+101,Electrode,1,Yes,Electric,,150,174,120,104,1354,1646,7.50,1.20,16%,6%,Spark,Tackle,Discharge,Thunderbolt,Hyper Beam,,80,80,140
+102,Exeggcute,2,Yes,Grass,Psychic,110,132,120,79,865,11,7.50,1.00,40%,10%,Confusion,,Seed Bomb,Psychic,Ancient Power,,60,45,40
+103,Exeggutor,1,Yes,Grass,Psychic,232,164,190,156,2558,2955,7.50,1.00,16%,6%,Confusion,Zen Headbutt,Seed Bomb,Psychic,Solar Beam,,125,65,55
+104,Cubone,2,Yes,Ground,,102,150,100,75,780,1007,7.50,1.00,32%,10%,Mud Slap,Rock Smash,Bone Club,Dig,Bulldoze,,40,50,35
+105,Marowak,1,Yes,Ground,,140,202,120,121,1361,1657,4.29,0.85,12%,6%,Mud Slap,Rock Smash,Bone Club,Dig,Earthquake,,50,80,45
+106,Hitmonlee,1,Yes,Fighting,,148,172,100,86,1212,1493,5.45,0.80,16%,9%,Low Kick,Rock Smash,Brick Break,Low Sweep,Stone Edge,,35,110,87
+107,Hitmonchan,1,Yes,Fighting,,138,204,100,102,1231,1517,4.29,1.10,16%,9%,Bullet Punch,Rock Smash,Fire Punch,Ice Punch,Thunder Punch,Brick Break,35,110,76
+108,Lickitung,1,Yes,Normal,,126,160,180,144,1336,1627,2.61,1.25,16%,9%,Lick,Zen Headbutt,Hyper Beam,Stomp,Power Whip,,60,75,30
+109,Koffing,2,Yes,Poison,,136,142,80,57,905,1152,7.50,1.00,40%,10%,Tackle,,Sludge,Sludge Bomb,Dark Pulse,,60,45,35
+110,Weezing,1,Yes,Poison,,190,198,130,129,1904,225,15.00,1.00,16%,6%,Tackle,,Sludge Bomb,Shadow Ball,Dark Pulse,,85,70,60
+111,Rhyhorn,2,Yes,Ground,Rock,110,116,160,93,936,1182,4.29,1.25,40%,10%,Mud Slap,Rock Smash,Bulldoze,Horn Attack,Stomp,,30,30,25
+112,Rhydon,1,Yes,Ground,Rock,166,160,210,168,19,2243,7.50,1.00,16%,6%,Mud Slap,Rock Smash,Megahorn,Earthquake,Stone Edge,,45,45,40
+113,Chansey,1,Yes,Normal,,40,60,500,150,433,675,20.00,1.00,16%,9%,Pound,Zen Headbutt,Psychic,Hyper Beam,Dazzling Gleam,,35,105,50
+114,Tangela,1,Yes,Grass,,164,152,130,99,144,174,15.00,1.25,32%,9%,Vine Whip,,Power Whip,Sludge Bomb,Solar Beam,,100,40,60
+115,Kangaskhan,1,Yes,Normal,,142,178,210,187,1715,2043,5.45,0.70,16%,9%,Mud Slap,Low Kick,Brick Break,Earthquake,Stomp,,40,80,90
+116,Horsea,2,Yes,Water,,122,100,60,30,590,795,6.00,1.00,40%,10%,Water Gun,Bubble,Bubble Beam,Dragon Pulse,Flash Cannon,,70,25,60
+117,Seadra,1,Yes,Water,,176,150,110,83,1412,1713,10.00,1.00,16%,6%,Water Gun,Dragon Breath,Blizzard,Dragon Pulse,Hydro Pump,,95,45,85
+118,Goldeen,2,Yes,Water,,112,126,90,57,745,965,6.00,1.00,40%,15%,Peck,Mud Shot,Water Pulse,Horn Attack,Aqua Tail,,35,50,63
+119,Seaking,1,Yes,Water,,172,160,160,128,1719,2044,4.29,1.00,16%,7%,Peck,Poison Jab,Icy Wind,Drill Run,Megahorn,,65,80,68
+120,Staryu,2,Yes,Water,,130,128,60,38,712,938,6.00,1.35,40%,15%,Tackle,Water Gun,Swift,Bubble Beam,Power Gem,,70,55,85
+121,Starmie,1,Yes,Water,Psychic,194,192,120,115,1839,2182,10.00,1.60,16%,6%,Tackle,Water Gun,Hydro Pump,Power Gem,Psychic,,100,85,115
+122,Mr. Mime,1,Yes,Psychic,,154,196,80,78,1204,1494,12.00,1.00,24%,9%,Confusion,Zen Headbutt,Psybeam,Psychic,Shadow Ball,,100,120,90
+123,Scyther,1,Yes,Bug,Flying,176,180,140,126,1745,2074,4.29,1.00,24%,9%,Fury Cutter,Steel Wing,Night Slash,X-Scissor,Bug Buzz,,55,80,105
+124,Jynx,1,Yes,Ice,Psychic,172,134,130,87,1418,1717,15.00,1.25,24%,9%,Frost Breath,Pound,Draining Kiss,Ice Punch,Psyshock,,115,95,95
+125,Electabuzz,1,Yes,Electric,,198,160,130,104,1784,2119,10.00,1.00,24%,9%,Thunder Shock,Low Kick,Thunder Punch,Thunderbolt,Thunder,,95,85,105
+126,Magmar,1,Yes,Fire,,214,158,130,103,1916,2265,4.29,1.25,24%,9%,Ember,Karate Chop,Fire Blast,Fire Punch,Flamethrower,,100,85,93
+127,Pinsir,1,Yes,Bug,,184,186,130,121,1787,2122,7.50,1.25,24%,9%,Rock Smash,Fury Cutter,Vice Grip,X-Scissor,Submission,,55,70,85
+128,Tauros,1,Yes,Normal,,148,184,150,138,1536,1845,15.00,1.20,24%,9%,Tackle,Zen Headbutt,Horn Attack,Iron Head,Earthquake,,40,70,110
+129,Magikarp,2,Yes,Water,,42,84,40,17,152,263,0.02,1.30,56%,15%,Splash,,Struggle,,,,15,20,80
+130,Gyarados,1,Yes,Water,Flying,192,196,190,186,2314,2689,7.50,1.00,8%,7%,Bite,,Hydro Pump,Twister,Dragon Pulse,,60,100,81
+131,Lapras,1,Yes,Water,Ice,186,190,260,247,2582,2981,20.00,1.20,16%,9%,Frost Breath,Ice Shard,Dragon Pulse,Ice Beam,Blizzard,,85,95,60
+132,Ditto,1,No,Normal,,110,110,96,53,706,920,0.02,1.00,16%,10%,Pound,,Struggle,,,,48,48,48
+133,Eevee,2,Yes,Normal,,114,128,110,70,845,1077,6.00,1.35,32%,10%,Quick Attack,Tackle,Dig,Swift,Body Slam,,45,65,65
+134,Vaporeon,1,Yes,Water,,186,168,260,218,2428,2816,20.00,1.00,12%,6%,Water Gun,,Water Pulse,Hydro Pump,Aqua Tail,,110,95,65
+135,Jolteon,1,Yes,Electric,,192,174,130,113,1804,214,15.00,1.30,12%,6%,Thunder Shock,,Discharge,Thunderbolt,Thunder,,110,95,130
+136,Flareon,1,Yes,Fire,,238,178,130,116,2261,2643,20.00,1.35,12%,6%,Ember,,Fire Blast,Flamethrower,Heat Wave,,95,110,65
+137,Porygon,1,Yes,Normal,,156,158,130,103,1396,1692,7.50,1.00,32%,9%,Zen Headbutt,Tackle,Psybeam,Signal Beam,Discharge,,85,75,40
+138,Omanyte,2,Yes,Rock,Water,132,160,70,56,873,112,7.50,1.30,32%,9%,Water Gun,Mud Shot,Ancient Power,Brine,Rock Tomb,,90,55,35
+139,Omastar,1,Yes,Rock,Water,180,202,140,141,1891,2234,20.00,1.25,12%,5%,Mud Shot,Water Gun,Ancient Power,Hydro Pump,Rock Slide,,115,70,55
+140,Kabuto,2,Yes,Rock,Water,148,142,60,43,853,1105,7.50,0.90,32%,9%,Scratch,Mud Shot,Ancient Power,Aqua Jet,Rock Tomb,,55,45,55
+141,Kabutops,1,Yes,Rock,Water,190,190,120,114,1792,213,5.45,1.00,12%,5%,Mud Shot,Fury Cutter,Ancient Power,Water Pulse,Stone Edge,,65,70,80
+142,Aerodactyl,1,Yes,Rock,Flying,182,162,160,130,183,2165,12.00,1.00,16%,9%,Steel Wing,Bite,Ancient Power,Iron Head,Hyper Beam,,60,75,130
+143,Snorlax,1,Yes,Normal,,180,180,320,288,2698,3113,20.00,1.00,16%,9%,Zen Headbutt,Lick,Body Slam,Hyper Beam,Earthquake,,65,110,30
+144,Articuno,1,No,Ice,Flying,198,242,180,218,2581,2978,20.00,1.00,0%,10%,Frost Breath,,Ice Beam,Icy Wind,Blizzard,,95,125,85
+145,Zapdos,1,No,Electric,Flying,232,194,180,175,2708,3114,20.00,1.00,0%,10%,Thunder Shock,,Discharge,Thunderbolt,Thunder,,125,90,100
+146,Moltres,1,No,Fire,Flying,242,194,180,175,2824,324,20.00,1.00,0%,10%,Ember,,Fire Blast,Heat Wave,Flamethrower,,125,85,90
+147,Dratini,3,Yes,Dragon,,128,110,82,45,759,983,6.00,0.85,32%,9%,Dragon Breath,,Wrap,Twister,Aqua Tail,,50,50,50
+148,Dragonair,2,Yes,Dragon,,170,152,122,93,1446,1748,7.50,1.25,8%,6%,Dragon Breath,,Wrap,Aqua Tail,Dragon Pulse,,70,70,70
+149,Dragonite,1,Yes,Dragon,Flying,250,212,182,193,3067,35,20.00,1.00,4%,5%,Dragon Breath,Steel Wing,Dragon Pulse,Hyper Beam,Dragon Claw,,100,100,80
+150,Mewtwo,1,No,Psychic,,284,202,212,214,3671,4145,7.50,1.20,0%,10%,Psycho Cut,Confusion,Psychic,Shadow Ball,Hyper Beam,,154,90,130
+151,Mew,1,No,Psychic,,220,220,200,220,2882,3299,20.00,1.00,0%,10%,Pound,,Psychic,,,,100,100,100

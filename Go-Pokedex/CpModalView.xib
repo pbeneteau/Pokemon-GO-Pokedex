@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A304a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="TOX-af-jo4" customClass="CpModalView" customModule="Go_Pokedex" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ModalView" translatesAutoresizingMaskIntoConstraints="NO" id="mcz-YZ-PUu">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cpBackground" translatesAutoresizingMaskIntoConstraints="NO" id="nct-ZY-HL9">
+                            <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxe-xB-c9D">
+                            <rect key="frame" x="183" y="113" width="71" height="37"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="37" id="mSP-bT-Fsk"/>
+                            </constraints>
+                            <state key="normal" image="hpCloseButton">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="handleBottomButton:" destination="TOX-af-jo4" eventType="touchUpInside" id="lyb-z7-Wv8"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sOX-nY-gIa" customClass="CustomUITextField" customModule="Go_Pokedex" customModuleProvider="target">
+                            <rect key="frame" x="26" y="117" width="139" height="30"/>
+                            <color key="textColor" red="0.59590416909999999" green="0.58171597460000002" blue="0.58171597460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="sxe-xB-c9D" secondAttribute="bottom" constant="150" id="4bi-UG-O4m"/>
+                        <constraint firstAttribute="trailing" secondItem="sxe-xB-c9D" secondAttribute="trailing" constant="26" id="5iv-HP-NpN"/>
+                        <constraint firstItem="sOX-nY-gIa" firstAttribute="centerY" secondItem="sxe-xB-c9D" secondAttribute="centerY" constant="0.5" id="KsS-90-VRm"/>
+                        <constraint firstItem="sOX-nY-gIa" firstAttribute="leading" secondItem="mcz-YZ-PUu" secondAttribute="leading" constant="26" id="Mcf-kI-SyE"/>
+                        <constraint firstItem="sxe-xB-c9D" firstAttribute="leading" secondItem="mcz-YZ-PUu" secondAttribute="leading" constant="183" id="ai2-50-zzK"/>
+                        <constraint firstItem="sxe-xB-c9D" firstAttribute="leading" secondItem="sOX-nY-gIa" secondAttribute="trailing" constant="18" id="az6-rt-71i"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mcz-YZ-PUu" secondAttribute="trailing" id="I0h-9d-3Jf"/>
+                <constraint firstItem="mcz-YZ-PUu" firstAttribute="top" secondItem="TOX-af-jo4" secondAttribute="top" id="XHh-iQ-qtO"/>
+                <constraint firstAttribute="bottom" secondItem="mcz-YZ-PUu" secondAttribute="bottom" id="XHt-6J-MR8"/>
+                <constraint firstItem="mcz-YZ-PUu" firstAttribute="leading" secondItem="TOX-af-jo4" secondAttribute="leading" id="ZTe-VK-f8D"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomButton" destination="sxe-xB-c9D" id="c5a-x0-MGb"/>
+                <outlet property="contentView" destination="mcz-YZ-PUu" id="YXb-2z-GzD"/>
+                <outlet property="cpTextField" destination="sOX-nY-gIa" id="OEc-Pb-4eW"/>
+            </connections>
+            <point key="canvasLocation" x="135" y="301"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cpBackground" width="280" height="300"/>
+        <image name="hpCloseButton" width="71" height="37"/>
+    </resources>
+</document>

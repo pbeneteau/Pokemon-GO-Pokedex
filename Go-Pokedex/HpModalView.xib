@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A304a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tcX-jT-eoT" customClass="HpModalView" customModule="Go_Pokedex" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ModalView" translatesAutoresizingMaskIntoConstraints="NO" id="EDf-bK-x6Y">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hpBackground" translatesAutoresizingMaskIntoConstraints="NO" id="FML-Xc-urs">
+                            <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCC-j1-lH5">
+                            <rect key="frame" x="183" y="113" width="71" height="37"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="37" id="WnI-ig-dUA"/>
+                            </constraints>
+                            <state key="normal" image="hpCloseButton"/>
+                            <connections>
+                                <action selector="handleBottomButton:" destination="tcX-jT-eoT" eventType="touchUpInside" id="3lH-Wi-0VC"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type here..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mr3-Nz-f1R" customClass="CustomUITextField" customModule="Go_Pokedex" customModuleProvider="target">
+                            <rect key="frame" x="26" y="117" width="139" height="30"/>
+                            <color key="textColor" red="0.59590416909999999" green="0.58171597460000002" blue="0.58171597460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="mr3-Nz-f1R" firstAttribute="leading" secondItem="EDf-bK-x6Y" secondAttribute="leading" constant="26" id="Cg5-uZ-YwY"/>
+                        <constraint firstItem="mr3-Nz-f1R" firstAttribute="centerY" secondItem="uCC-j1-lH5" secondAttribute="centerY" id="Jwq-Wc-wFD"/>
+                        <constraint firstAttribute="trailing" secondItem="uCC-j1-lH5" secondAttribute="trailing" constant="26" id="M64-gb-n4F"/>
+                        <constraint firstItem="uCC-j1-lH5" firstAttribute="leading" secondItem="mr3-Nz-f1R" secondAttribute="trailing" constant="18" id="duh-hk-CCJ"/>
+                        <constraint firstItem="uCC-j1-lH5" firstAttribute="leading" secondItem="EDf-bK-x6Y" secondAttribute="leading" constant="183" id="s3M-oG-B60"/>
+                        <constraint firstAttribute="bottom" secondItem="uCC-j1-lH5" secondAttribute="bottom" constant="150" id="y0w-lc-yHV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="EDf-bK-x6Y" secondAttribute="trailing" id="52Y-Vn-oOP"/>
+                <constraint firstItem="EDf-bK-x6Y" firstAttribute="top" secondItem="tcX-jT-eoT" secondAttribute="top" id="D5Z-aB-rav"/>
+                <constraint firstItem="EDf-bK-x6Y" firstAttribute="leading" secondItem="tcX-jT-eoT" secondAttribute="leading" id="IJn-z9-rEf"/>
+                <constraint firstAttribute="bottom" secondItem="EDf-bK-x6Y" secondAttribute="bottom" id="o5D-QS-59g"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomButton" destination="uCC-j1-lH5" id="c4f-Oz-f9H"/>
+                <outlet property="contentView" destination="EDf-bK-x6Y" id="Xg6-Y8-hGL"/>
+                <outlet property="hpTextField" destination="mr3-Nz-f1R" id="Qwk-xc-MCy"/>
+            </connections>
+            <point key="canvasLocation" x="-5" y="185"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hpBackground" width="280" height="300"/>
+        <image name="hpCloseButton" width="71" height="37"/>
+    </resources>
+</document>

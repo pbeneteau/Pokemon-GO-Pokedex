@@ -1,21 +1,20 @@
 //
 //  AppDelegate.swift
-//  Go-Pokedex
+//  CityGuide
 //
-//  Created by antoine beneteau on 06/09/2016.
-//  Copyright © 2016 antoine beneteau. All rights reserved.
+//  Created by TastyApp on 30/12/15.
+//  Copyright © 2015 TastyApp. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+       // set white status bar
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
+        
         return true
     }
 
@@ -40,7 +39,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
 
 }
 
