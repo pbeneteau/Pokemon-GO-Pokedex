@@ -219,7 +219,7 @@ class MainTableViewController: UIViewController, UITableViewDelegate, UITableVie
         let cells = tableview.visibleCells
         let tableHeight: CGFloat = tableview.bounds.size.height
         
-        if index == 1 {
+        if index == 0 {
             for i in cells {
                 let cell: UITableViewCell = i as UITableViewCell
                 cell.transform = CGAffineTransformMakeTranslation(0, tableHeight)
