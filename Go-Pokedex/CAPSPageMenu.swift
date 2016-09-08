@@ -99,7 +99,7 @@ public class CAPSPageMenu: UIViewController, UIScrollViewDelegate, UIGestureReco
     public var menuItemWidth : CGFloat = 111.0
     public var selectionIndicatorHeight : CGFloat = 3.0
     var totalMenuItemWidthIfDifferentWidths : CGFloat = 0.0
-    public var scrollAnimationDurationOnMenuItemTap : Int = 500 // Millisecons
+    public var scrollAnimationDurationOnMenuItemTap : Int = 300 // Millisecons
     var startingMenuMargin : CGFloat = 0.0
     var menuItemMargin : CGFloat = 0.0
     
