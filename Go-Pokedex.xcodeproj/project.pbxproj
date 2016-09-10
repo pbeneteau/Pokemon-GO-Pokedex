@@ -915,7 +915,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Go-Pokedex/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tastyapp.gopokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -935,7 +935,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Go-Pokedex/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tastyapp.gopokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1007,6 +1007,7 @@
 				00192D061D7F6CE900ADBA08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00192D071D7F6CE900ADBA08 /* Build configuration list for PBXNativeTarget "Go-PokedexTests" */ = {
 			isa = XCConfigurationList;
@@ -1015,6 +1016,7 @@
 				00192D091D7F6CE900ADBA08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00192D0A1D7F6CE900ADBA08 /* Build configuration list for PBXNativeTarget "Go-PokedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -1023,6 +1025,7 @@
 				00192D0C1D7F6CE900ADBA08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
