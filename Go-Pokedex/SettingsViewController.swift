@@ -13,6 +13,8 @@ class SettingsViewController: UITableViewController {
     @IBOutlet weak var notifSwitch: NSLayoutConstraint!
     @IBOutlet weak var notifLabel: UILabel!
     
+    @IBOutlet var tableview: UITableView!
+    
     let mail = "contact.gopokedex@gmail.com"
     let twitter = "https://twitter.com/GO_Pokedex_IOS"
     let facebook = "https://www.facebook.com/gopokedexapp/"
@@ -29,6 +31,7 @@ class SettingsViewController: UITableViewController {
         self.navigationItem.title = "Settings"
         self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont (name: "OpenSans-Semibold", size: 19)!,  NSForegroundColorAttributeName: UIColor.whiteColor()]
         self.tableView.allowsSelection = false
+        
     }
 
     override func didReceiveMemoryWarning() {

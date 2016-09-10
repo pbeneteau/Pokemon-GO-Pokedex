@@ -112,7 +112,6 @@
 		00192DE51D7F6F6500ADBA08 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00192DC01D7F6F6500ADBA08 /* NVActivityIndicatorView.swift */; };
 		00192DE61D7F6F6500ADBA08 /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00192DC11D7F6F6500ADBA08 /* NVActivityIndicatorViewable.swift */; };
 		00192DE81D7F6FBA00ADBA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00192DE71D7F6FBA00ADBA08 /* Assets.xcassets */; };
-		00192DEA1D7F701900ADBA08 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00192DE91D7F701900ADBA08 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,7 +244,7 @@
 		00192DC01D7F6F6500ADBA08 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorView.swift; sourceTree = "<group>"; };
 		00192DC11D7F6F6500ADBA08 /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
 		00192DE71D7F6FBA00ADBA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00192DE91D7F701900ADBA08 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009C71681D848644008A5D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,7 +320,7 @@
 				00192D181D7F6DDA00ADBA08 /* Main.storyboard */,
 				00192CE81D7F6CE900ADBA08 /* LaunchScreen.storyboard */,
 				00192D161D7F6DD100ADBA08 /* CAPSPageMenu.swift */,
-				00192DE91D7F701900ADBA08 /* Info.plist */,
+				009C71681D848644008A5D9D /* Info.plist */,
 			);
 			path = "Go-Pokedex";
 			sourceTree = "<group>";
@@ -669,7 +668,6 @@
 				00192D191D7F6DDA00ADBA08 /* Main.storyboard in Resources */,
 				00192CEA1D7F6CE900ADBA08 /* LaunchScreen.storyboard in Resources */,
 				00192D3A1D7F6EB800ADBA08 /* GoPokedex_TypesFinal.csv in Resources */,
-				00192DEA1D7F701900ADBA08 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
