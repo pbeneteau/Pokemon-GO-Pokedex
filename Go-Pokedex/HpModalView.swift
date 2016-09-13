@@ -1,7 +1,7 @@
 //
 //  ModalView.swift
 //
-//  Created by Beneteau Antoine on 2/11/15.
+//  Created by TastyApp on 2/11/15.
 //  Copyright (c) 2016 Tastyapp. All rights reserved.
 //
 

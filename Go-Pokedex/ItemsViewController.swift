@@ -2,7 +2,7 @@
 //  ItemsViewController.swift
 //  Go Pokedex
 //
-//  Created by antoine beneteau on 25/08/2016.
+//  Created by TastyApp on 25/08/2016.
 //  Copyright © 2016 TastyApp. All rights reserved.
 //
 

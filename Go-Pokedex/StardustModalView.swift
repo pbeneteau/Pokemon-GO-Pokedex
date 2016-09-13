@@ -2,7 +2,7 @@
 //  StardustModalView.swift
 //  Go Pokedex
 //
-//  Created by antoine beneteau on 30/08/2016.
+//  Created by TastyApp on 30/08/2016.
 //  Copyright © 2016 TastyApp. All rights reserved.
 //
 

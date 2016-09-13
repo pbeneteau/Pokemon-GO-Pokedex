@@ -2,7 +2,7 @@
 //  SettingsViewController.swift
 //  Go Pokedex
 //
-//  Created by Paul Beneteau on 26/08/2016.
+//  Created by TastyApp on 26/08/2016.
 //  Copyright © 2016 TASTYAPP. All rights reserved.
 //
 

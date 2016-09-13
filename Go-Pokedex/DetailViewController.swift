@@ -2,7 +2,7 @@
 //  DetailViewController.swift
 //  CityGuide
 //
-//  Created by Anna on 31/12/15.
+//  Created by TastyApp on 31/12/15.
 //  Copyright © 2015 TastyApp. All rights reserved.
 //
 

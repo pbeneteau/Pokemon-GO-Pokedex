@@ -2,8 +2,8 @@
 //  Constants.swift
 //  PokeDex
 //
-//  Created by Ant on 3/17/16.
-//  Copyright © 2016 Ant. All rights reserved.
+//  Created by TastyApp on 3/17/16.
+//  Copyright © 2016 TastyApp. All rights reserved.
 //
 
 import Foundation

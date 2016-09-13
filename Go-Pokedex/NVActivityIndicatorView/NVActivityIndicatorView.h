@@ -2,8 +2,8 @@
 //  NVActivityIndicatorView.h
 //  NVActivityIndicatorView
 //
-//  Created by MORITANAOKI on 2015/09/13.
-//  Copyright (c) 2015年 Nguyen Vinh. All rights reserved.
+//  Created by TastyApp on 2015/09/13.
+//  Copyright (c) 2015 TastyApp. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

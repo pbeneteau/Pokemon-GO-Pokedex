@@ -2,7 +2,7 @@
 //  MenuController.swift
 //  Go Pokedex
 //
-//  Created by antoine beneteau on 21/08/2016.
+//  Created by TastyApp on 21/08/2016.
 //  Copyright © 2016 TastyApp. All rights reserved.
 //
 
@@ -34,7 +34,7 @@ func createrMenu(view: UIView) ->PathMenu{
     menu.farRadius      = 110.0
     menu.nearRadius     = 90.0
     menu.endRadius      = 100.0
-    menu.animationDuration = 0.35
+    menu.animationDuration = 0.38
     
     view.insertSubview(menu, atIndex: 8)
 

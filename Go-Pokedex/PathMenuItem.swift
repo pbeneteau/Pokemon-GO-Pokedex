@@ -2,7 +2,7 @@
 //  PathMenuItem.swift
 //  PathMenu
 //
-//  Created by pixyzehn on 12/27/14.
+//  Created by TastyApp on 12/27/14.
 //  Copyright (c) 2014 TastyApp. All rights reserved.
 //
 

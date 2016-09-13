@@ -2,8 +2,8 @@
 //  NVActivityIndicatorViewable.swift
 //  NVActivityIndicatorViewDemo
 //
-//  Created by Basem Emara on 5/26/16.
-//  Copyright © 2016 Nguyen Vinh. All rights reserved.
+//  Created by TastyApp on 5/26/16.
+//  Copyright © 2016 TastyApp. All rights reserved.
 //
 
 import UIKit

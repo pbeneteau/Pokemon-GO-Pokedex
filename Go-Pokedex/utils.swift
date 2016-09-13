@@ -2,8 +2,8 @@
 //  utils.swift
 //  Go Pokedex
 //
-//  Created by antoine beneteau on 21/08/2016.
-//  Copyright © 2016 Anna. All rights reserved.
+//  Created by TastyApp on 21/08/2016.
+//  Copyright © 2016 TastyApp. All rights reserved.
 //
 
 import Foundation

@@ -2,8 +2,8 @@
 //  Pokemon.swift
 //  Go Pokedex
 //
-//  Created by antoine beneteau on 22/08/2016.
-//  Copyright © 2016 Anna. All rights reserved.
+//  Created by TastyApp on 22/08/2016.
+//  Copyright © 2016 TastyApp. All rights reserved.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  QuickMove.swift
 //  Go Pokedex
 //
-//  Created by antoine beneteau on 23/08/2016.
-//  Copyright © 2016 Anna. All rights reserved.
+//  Created by TastyApp on 23/08/2016.
+//  Copyright © 2016 TastyApp. All rights reserved.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  RoundImage.swift
 //  Instagram
 //
-//  Created by Ant on 4/3/16.
+//  Created by TastyApp on 4/3/16.
 //  Copyright © 2016 TastyApp. All rights reserved.
 //
 
