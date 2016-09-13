@@ -19,7 +19,7 @@ func createrMenu(view: UIView) ->PathMenu{
     let ivMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "IV")!)
     let settingsMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "Settings-1")!)
     
-    let items = [backpackMenuItem,pokedexMenuItem,tipsMenuItem, ivMenuItem, settingsMenuItem]
+    let items = [backpackMenuItem,tipsMenuItem,pokedexMenuItem, ivMenuItem, settingsMenuItem]
     
     let startItem = PathMenuItem(image: menuItemImage,
                                  highlightedImage: menuItemImage,
@@ -34,7 +34,7 @@ func createrMenu(view: UIView) ->PathMenu{
     menu.farRadius      = 110.0
     menu.nearRadius     = 90.0
     menu.endRadius      = 100.0
-    menu.animationDuration = 0.25
+    menu.animationDuration = 0.35
     
     view.insertSubview(menu, atIndex: 8)
 
