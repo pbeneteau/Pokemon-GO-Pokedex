@@ -19,7 +19,7 @@ func createrMenu(view: UIView) ->PathMenu{
     let ivMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "IV")!)
     let settingsMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "Settings-1")!)
     
-    let items = [backpackMenuItem,tipsMenuItem,pokedexMenuItem, ivMenuItem, settingsMenuItem]
+    let items = [backpackMenuItem, tipsMenuItem, pokedexMenuItem, ivMenuItem, settingsMenuItem]
     
     let startItem = PathMenuItem(image: menuItemImage,
                                  highlightedImage: menuItemImage,
