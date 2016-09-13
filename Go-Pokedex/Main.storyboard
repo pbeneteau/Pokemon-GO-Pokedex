@@ -829,7 +829,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mqO-rA-hDk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-659.5" y="470.5"/>
+            <point key="canvasLocation" x="-497.5" y="474.5"/>
         </scene>
         <!--POKEDEX-->
         <scene sceneID="JqK-bf-LN2">
@@ -896,23 +896,26 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="94"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTIFS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tm-rH-flL">
-                                                    <rect key="frame" x="184" y="34" width="82" height="21"/>
-                                                    <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="25"/>
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notifIcon" translatesAutoresizingMaskIntoConstraints="NO" id="R5a-5P-g1e">
                                                     <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="90" id="X4j-3a-FOt"/>
                                                     </constraints>
                                                 </imageView>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g19-x3-Pmc">
+                                                    <rect key="frame" x="279" y="29" width="51" height="31"/>
+                                                </switch>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTIFS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tm-rH-flL">
+                                                    <rect key="frame" x="114" y="36" width="82" height="21"/>
+                                                    <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="25"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="1tm-rH-flL" firstAttribute="centerY" secondItem="TsZ-X4-ulU" secondAttribute="centerY" constant="-2.5" id="Nb6-vf-sw8"/>
-                                                <constraint firstItem="1tm-rH-flL" firstAttribute="top" secondItem="TsZ-X4-ulU" secondAttribute="topMargin" constant="26" id="WIB-Tf-isu"/>
-                                                <constraint firstItem="1tm-rH-flL" firstAttribute="leading" secondItem="R5a-5P-g1e" secondAttribute="trailing" constant="94" id="X8F-Co-zPL"/>
+                                                <constraint firstItem="1tm-rH-flL" firstAttribute="centerY" secondItem="TsZ-X4-ulU" secondAttribute="centerY" constant="-0.5" id="Nb6-vf-sw8"/>
+                                                <constraint firstItem="1tm-rH-flL" firstAttribute="top" secondItem="TsZ-X4-ulU" secondAttribute="topMargin" constant="28" id="WIB-Tf-isu"/>
+                                                <constraint firstItem="1tm-rH-flL" firstAttribute="leading" secondItem="R5a-5P-g1e" secondAttribute="trailing" constant="24" id="X8F-Co-zPL"/>
                                                 <constraint firstItem="R5a-5P-g1e" firstAttribute="leading" secondItem="TsZ-X4-ulU" secondAttribute="leading" id="hKB-Nn-mYy"/>
                                                 <constraint firstItem="R5a-5P-g1e" firstAttribute="top" secondItem="TsZ-X4-ulU" secondAttribute="top" id="rRj-do-i8t"/>
                                             </constraints>
@@ -938,9 +941,9 @@
                                                     </constraints>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4o-0o-tN4">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                                    <rect key="frame" x="0.0" y="2" width="375" height="90"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="25"/>
-                                                    <inset key="contentEdgeInsets" minX="80" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     <state key="normal" title="RATE OUR APP">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
@@ -951,10 +954,10 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="V4o-0o-tN4" secondAttribute="trailing" id="1mM-8O-qNZ"/>
-                                                <constraint firstItem="RH4-o6-mb4" firstAttribute="top" secondItem="V4o-0o-tN4" secondAttribute="top" id="CAB-bS-BS6"/>
+                                                <constraint firstItem="RH4-o6-mb4" firstAttribute="top" secondItem="V4o-0o-tN4" secondAttribute="top" constant="-2" id="CAB-bS-BS6"/>
                                                 <constraint firstItem="RH4-o6-mb4" firstAttribute="top" secondItem="RIu-dH-xUF" secondAttribute="top" id="Svi-mW-jTs"/>
                                                 <constraint firstItem="RH4-o6-mb4" firstAttribute="leading" secondItem="RIu-dH-xUF" secondAttribute="leading" id="d0R-lH-TcN"/>
-                                                <constraint firstItem="RH4-o6-mb4" firstAttribute="bottom" secondItem="V4o-0o-tN4" secondAttribute="bottom" id="umW-yX-IDU"/>
+                                                <constraint firstItem="RH4-o6-mb4" firstAttribute="bottom" secondItem="V4o-0o-tN4" secondAttribute="bottom" constant="-2" id="umW-yX-IDU"/>
                                                 <constraint firstItem="RH4-o6-mb4" firstAttribute="leading" secondItem="V4o-0o-tN4" secondAttribute="leading" id="xH4-JT-dVT"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -976,7 +979,7 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmO-84-YIB">
                                                     <rect key="frame" x="0.0" y="-1" width="375" height="92"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="25"/>
-                                                    <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <inset key="contentEdgeInsets" minX="-25" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     <inset key="titleEdgeInsets" minX="80" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     <state key="normal" title="CONTACT BY MAIL">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1013,7 +1016,7 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oH-e1-Sf3">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="25"/>
-                                                    <inset key="contentEdgeInsets" minX="80" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <inset key="contentEdgeInsets" minX="-50" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     <state key="normal" title="TWITTER">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
@@ -1049,7 +1052,7 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJA-Vy-sEd">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="25"/>
-                                                    <inset key="contentEdgeInsets" minX="80" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <inset key="contentEdgeInsets" minX="-20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     <state key="normal" title="FACEBOOK">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
@@ -1085,7 +1088,7 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yc6-55-S4g">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="25"/>
-                                                    <inset key="contentEdgeInsets" minX="80" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     <state key="normal" title="OUR WEBSITE">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
@@ -1990,27 +1993,33 @@
                                                     </constraints>
                                                 </view>
                                                 <imageView userInteractionEnabled="NO" tag="29" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="DMA-9z-Rfb" userLabel="pokemon Image">
-                                                    <rect key="frame" x="20" y="8" width="75" height="75"/>
+                                                    <rect key="frame" x="15" y="8" width="75" height="75"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="75" id="xF2-3Z-dCg"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="30" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RONFLEX" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="f9K-sk-Auu">
-                                                    <rect key="frame" x="103" y="4" width="464" height="85"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="30" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HITMOCHAN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="f9K-sk-Auu">
+                                                    <rect key="frame" x="94" y="4" width="283" height="85"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="283" id="vCE-fk-jxj"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="35"/>
-                                                    <color key="textColor" red="0.1094419728292515" green="0.15234958062991236" blue="0.19679965101522845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="DMA-9z-Rfb" firstAttribute="top" secondItem="JIM-RJ-gcu" secondAttribute="topMargin" id="7cW-if-pk9"/>
+                                                <constraint firstItem="f9K-sk-Auu" firstAttribute="top" secondItem="JIM-RJ-gcu" secondAttribute="top" constant="4" id="Ewk-OO-1wt"/>
                                                 <constraint firstItem="ONb-u6-Cft" firstAttribute="top" secondItem="JIM-RJ-gcu" secondAttribute="top" id="LzV-6t-egY"/>
                                                 <constraint firstAttribute="bottom" secondItem="DMA-9z-Rfb" secondAttribute="bottom" constant="10" id="Ybd-Nt-elK"/>
-                                                <constraint firstItem="DMA-9z-Rfb" firstAttribute="leading" secondItem="ONb-u6-Cft" secondAttribute="trailing" constant="8" symbolic="YES" id="aNc-uc-OGj"/>
+                                                <constraint firstItem="DMA-9z-Rfb" firstAttribute="leading" secondItem="ONb-u6-Cft" secondAttribute="trailing" constant="3" id="aNc-uc-OGj"/>
                                                 <constraint firstAttribute="height" constant="93" id="aNf-JW-AvE"/>
                                                 <constraint firstAttribute="bottom" secondItem="ONb-u6-Cft" secondAttribute="bottom" id="bPw-zp-XQi"/>
+                                                <constraint firstItem="f9K-sk-Auu" firstAttribute="centerY" secondItem="ONb-u6-Cft" secondAttribute="centerY" id="dHM-kd-2kg"/>
                                                 <constraint firstItem="ONb-u6-Cft" firstAttribute="leading" secondItem="JIM-RJ-gcu" secondAttribute="leading" id="jGG-gL-u8g"/>
+                                                <constraint firstItem="f9K-sk-Auu" firstAttribute="leading" secondItem="DMA-9z-Rfb" secondAttribute="trailing" constant="4" id="sPU-hm-xft"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5J-Hj-feW" userLabel="Contener">

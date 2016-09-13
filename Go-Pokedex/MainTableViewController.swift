@@ -47,22 +47,9 @@ class MainTableViewController: UIViewController, UITableViewDelegate, UITableVie
         initPokemon()
         initSearch()
         animateTable()
-        delay(1.5) {
-            self.tableview.backgroundColor = UIColor(red:0.16, green:0.50, blue:0.73, alpha:1.0)
-        }
+        self.tableview.backgroundColor = UIColor(red:0.11, green:0.15, blue:0.19, alpha:1.0)
+        
             }
-   
-    func delay(delay: Double, closure: ()->()) {
-        dispatch_after(
-            dispatch_time(
-                DISPATCH_TIME_NOW,
-                Int64(delay * Double(NSEC_PER_SEC))
-            ),
-            dispatch_get_main_queue(),
-            closure
-        )
-    }
-   
 
     
     func initPokemon() {
