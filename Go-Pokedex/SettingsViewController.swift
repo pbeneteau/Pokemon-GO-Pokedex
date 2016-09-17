@@ -31,7 +31,7 @@ class SettingsViewController: UITableViewController {
         self.navigationItem.title = "Settings"
         self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont (name: "OpenSans-Semibold", size: 19)!,  NSForegroundColorAttributeName: UIColor.whiteColor()]
         self.tableView.allowsSelection = false
-        
+        self.tableview.separatorInset.left = 30
     }
 
     override func didReceiveMemoryWarning() {
