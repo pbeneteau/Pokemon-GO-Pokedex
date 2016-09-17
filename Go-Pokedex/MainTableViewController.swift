@@ -44,7 +44,7 @@ class MainTableViewController: UIViewController, UITableViewDelegate, UITableVie
         
         initActivityIndicator()
         searchBar.hidden = true
-        tableview.backgroundColor = UIColor(red:0.17, green:0.24, blue:0.31, alpha:1.0)
+        tableview.backgroundColor = UIColor(red:0.11, green:0.15, blue:0.19, alpha:1.0)
     }
     
     override func viewDidAppear(animated: Bool) {
