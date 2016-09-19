@@ -173,38 +173,40 @@
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.17254901960784313" green="0.24313725490196078" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="Z66-bf-liV" firstAttribute="top" secondItem="t94-je-p1O" secondAttribute="top" constant="22" id="9KH-t0-cLe"/>
-                                                        <constraint firstItem="Z66-bf-liV" firstAttribute="leading" secondItem="t94-je-p1O" secondAttribute="leading" constant="76" id="U1j-18-vo3"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Z66-bf-liV" secondAttribute="trailing" constant="24" id="czx-zE-v28"/>
-                                                        <constraint firstItem="Z66-bf-liV" firstAttribute="centerY" secondItem="t94-je-p1O" secondAttribute="centerY" id="yFu-Qz-dmB"/>
+                                                        <constraint firstItem="Z66-bf-liV" firstAttribute="leading" secondItem="t94-je-p1O" secondAttribute="leading" constant="76" id="Txc-O7-G9D"/>
+                                                        <constraint firstItem="Z66-bf-liV" firstAttribute="top" secondItem="t94-je-p1O" secondAttribute="top" constant="22" id="has-cH-eye"/>
+                                                        <constraint firstItem="Z66-bf-liV" firstAttribute="centerY" secondItem="t94-je-p1O" secondAttribute="centerY" id="kCb-Ms-ntV"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Z66-bf-liV" secondAttribute="trailing" constant="24" id="uP9-2d-46v"/>
                                                     </constraints>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="pcD-xv-DGX" customClass="RoundImage" customModule="Go_Pokedex" customModuleProvider="target">
-                                                    <rect key="frame" x="8" y="20" width="60" height="60"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="60" id="G0H-Dm-EBE"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fX6-BY-22q">
                                                     <rect key="frame" x="351" y="37" width="16" height="25"/>
                                                     <state key="normal" image="arrow-1"/>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSy-pM-Nxm">
+                                                    <rect key="frame" x="8" y="39" width="60" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="tam-26-T8J"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="t94-je-p1O" firstAttribute="top" secondItem="DVL-Go-it6" secondAttribute="top" constant="-2" id="0Kg-4t-9gK"/>
-                                                <constraint firstItem="pcD-xv-DGX" firstAttribute="top" secondItem="DVL-Go-it6" secondAttribute="topMargin" constant="12" id="5NU-wo-t4E"/>
+                                                <constraint firstItem="fX6-BY-22q" firstAttribute="centerY" secondItem="GSy-pM-Nxm" secondAttribute="centerY" id="0nM-SH-rnC"/>
+                                                <constraint firstItem="fX6-BY-22q" firstAttribute="centerY" secondItem="t94-je-p1O" secondAttribute="centerY" id="BuN-rg-H61"/>
                                                 <constraint firstItem="t94-je-p1O" firstAttribute="leading" secondItem="DVL-Go-it6" secondAttribute="leading" id="C30-jx-N79"/>
-                                                <constraint firstItem="fX6-BY-22q" firstAttribute="trailing" secondItem="DVL-Go-it6" secondAttribute="trailingMargin" id="LWI-Nb-24e"/>
+                                                <constraint firstItem="fX6-BY-22q" firstAttribute="trailing" secondItem="DVL-Go-it6" secondAttribute="trailingMargin" id="I6U-Pd-JCI"/>
                                                 <constraint firstItem="t94-je-p1O" firstAttribute="centerY" secondItem="DVL-Go-it6" secondAttribute="centerY" id="ReQ-J2-DEX"/>
-                                                <constraint firstItem="fX6-BY-22q" firstAttribute="centerY" secondItem="pcD-xv-DGX" secondAttribute="centerY" id="TK4-yk-Z32"/>
-                                                <constraint firstItem="pcD-xv-DGX" firstAttribute="centerY" secondItem="t94-je-p1O" secondAttribute="centerY" id="X2p-T9-n96"/>
-                                                <constraint firstItem="pcD-xv-DGX" firstAttribute="leading" secondItem="DVL-Go-it6" secondAttribute="leadingMargin" id="fLx-mQ-GwM"/>
                                                 <constraint firstAttribute="trailing" secondItem="t94-je-p1O" secondAttribute="trailing" id="n9y-t0-pYq"/>
+                                                <constraint firstItem="GSy-pM-Nxm" firstAttribute="leading" secondItem="DVL-Go-it6" secondAttribute="leadingMargin" id="r9U-CV-V8T"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="imageQuickLook" destination="pcD-xv-DGX" id="nt7-c3-Ryo"/>
                                             <outlet property="title" destination="Z66-bf-liV" id="Jdi-wc-Cal"/>
+                                            <outlet property="versionLabel" destination="GSy-pM-Nxm" id="AZX-at-6KO"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -234,7 +236,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XEp-8E-pad" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="204.53333333333333" y="-247.55333333333334"/>
+            <point key="canvasLocation" x="204.5" y="-248.5"/>
         </scene>
         <!--Tips Detail View Controller-->
         <scene sceneID="5D7-vN-J8g">
@@ -1221,7 +1223,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aboutUs" translatesAutoresizingMaskIntoConstraints="NO" id="O5i-MM-1rs">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="550"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1529411765" green="0.68235294120000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -3119,7 +3121,7 @@
         <image name="PokemonBackground" width="177" height="189"/>
         <image name="SplashScreen" width="320" height="568"/>
         <image name="aboutIcon" width="105" height="93"/>
-        <image name="aboutUs" width="375" height="627"/>
+        <image name="aboutUs" width="375" height="623"/>
         <image name="addPokemon" width="153" height="153"/>
         <image name="arrow-1" width="16" height="25"/>
         <image name="backButton" width="14" height="25"/>

@@ -49,7 +49,7 @@ class TipsViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func initTips() {
         tips.removeAll()
         for tipsRecord in tipsRecords {
-            tips.append(Tips(title: tipsRecord["title"] as! String, img: UIImage(named: "1")! /*UIImage(named: "\(tipsRecord["image"] as! String)")!*/, date: tipsRecord["date"] as! String, description: tipsRecord["description"] as! String))
+            tips.append(Tips(title: tipsRecord["title"] as! String, img: UIImage(named: "1")! /*UIImage(named: "\(tipsRecord["image"] as! String)")!*/, date: tipsRecord["date"] as! String, description: tipsRecord["description"] as! String, version: tipsRecord["version"] as! String))
         }
         self.tableView.reloadData()
         self.activityIndicator.stopAnimation()
@@ -189,7 +189,7 @@ class TipsViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("TipsRow") as! TipsRow
-        cell.initCell(tips[indexPath.section].title, image: tips[indexPath.section].img)
+        cell.initCell(tips[indexPath.section].title, image: tips[indexPath.section].img, version: tips[indexPath.section].version)
         cell.selectionStyle = UITableViewCellSelectionStyle.None
         return cell
     }

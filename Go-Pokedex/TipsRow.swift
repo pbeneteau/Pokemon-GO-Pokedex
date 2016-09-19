@@ -11,10 +11,12 @@ import UIKit
 class TipsRow: UITableViewCell {
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var imageQuickLook: RoundImage!
+    @IBOutlet weak var versionLabel: UILabel!
     
-    func initCell(title: String, image: UIImage) {
+    func initCell(title: String, image: UIImage, version: String) {
         self.title.text = title
         self.imageQuickLook.image = image
+        self.versionLabel.text = version
     }
     
 }
