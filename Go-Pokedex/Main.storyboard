@@ -183,6 +183,9 @@
                                                     <rect key="frame" x="351" y="37" width="16" height="25"/>
                                                     <state key="normal" image="arrow-1"/>
                                                 </button>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="pf7-LZ-pbP" userLabel="Image Quick Look">
+                                                    <rect key="frame" x="8" y="20" width="60" height="60"/>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSy-pM-Nxm">
                                                     <rect key="frame" x="8" y="39" width="60" height="21"/>
                                                     <constraints>
@@ -205,6 +208,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="imageQuickLook" destination="pf7-LZ-pbP" id="cEi-nk-v1R"/>
                                             <outlet property="title" destination="Z66-bf-liV" id="Jdi-wc-Cal"/>
                                             <outlet property="versionLabel" destination="GSy-pM-Nxm" id="AZX-at-6KO"/>
                                         </connections>
@@ -2586,13 +2590,16 @@
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="infosHeader" translatesAutoresizingMaskIntoConstraints="NO" id="wBa-2L-hZt">
                                                             <rect key="frame" x="0.0" y="0.0" width="375" height="123"/>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Jumps/min: 2.07" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZS-uM-LWe">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jumps/min: 2.07" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZS-uM-LWe">
                                                             <rect key="frame" x="8" y="60" width="278" height="21"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="21" id="ome-tp-VUB"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
                                                             <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Jumps Duration: 1.25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFy-zo-Zvw">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jumps Duration: 1.25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFy-zo-Zvw">
                                                             <rect key="frame" x="8" y="86" width="278" height="21"/>
                                                             <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
                                                             <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -2602,12 +2609,15 @@
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstItem="wBa-2L-hZt" firstAttribute="leading" secondItem="sw0-EY-TIe" secondAttribute="leading" id="0U9-p6-j0c"/>
+                                                        <constraint firstItem="6ZS-uM-LWe" firstAttribute="top" secondItem="sw0-EY-TIe" secondAttribute="top" constant="60" id="3qk-rG-w37"/>
+                                                        <constraint firstItem="QFy-zo-Zvw" firstAttribute="trailing" secondItem="6ZS-uM-LWe" secondAttribute="trailing" id="49L-o3-VoK"/>
+                                                        <constraint firstItem="6ZS-uM-LWe" firstAttribute="leading" secondItem="sw0-EY-TIe" secondAttribute="leadingMargin" id="4ef-Gj-wIf"/>
+                                                        <constraint firstItem="QFy-zo-Zvw" firstAttribute="top" secondItem="6ZS-uM-LWe" secondAttribute="bottom" constant="5" id="9lM-KA-sev"/>
                                                         <constraint firstAttribute="trailing" secondItem="wBa-2L-hZt" secondAttribute="trailing" id="Gnv-UV-nlj"/>
                                                         <constraint firstItem="wBa-2L-hZt" firstAttribute="top" secondItem="sw0-EY-TIe" secondAttribute="top" id="KVP-oQ-U1X"/>
-                                                        <constraint firstAttribute="bottom" secondItem="6ZS-uM-LWe" secondAttribute="bottom" constant="42" id="LrH-71-FWc"/>
-                                                        <constraint firstItem="6ZS-uM-LWe" firstAttribute="trailing" secondItem="QFy-zo-Zvw" secondAttribute="trailing" id="N55-Ib-7Ou"/>
-                                                        <constraint firstItem="QFy-zo-Zvw" firstAttribute="bottom" secondItem="sw0-EY-TIe" secondAttribute="bottomMargin" constant="-8" id="Zgj-x1-Og0"/>
-                                                        <constraint firstItem="6ZS-uM-LWe" firstAttribute="leading" secondItem="QFy-zo-Zvw" secondAttribute="leading" id="qwf-DY-tQd"/>
+                                                        <constraint firstAttribute="trailing" secondItem="6ZS-uM-LWe" secondAttribute="trailing" constant="89" id="OEp-df-5Wa"/>
+                                                        <constraint firstItem="QFy-zo-Zvw" firstAttribute="leading" secondItem="6ZS-uM-LWe" secondAttribute="leading" id="b8n-ym-uDX"/>
+                                                        <constraint firstAttribute="bottom" secondItem="QFy-zo-Zvw" secondAttribute="bottom" constant="16" id="tLZ-Ls-MyE"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -3121,7 +3131,7 @@
         <image name="PokemonBackground" width="177" height="189"/>
         <image name="SplashScreen" width="320" height="568"/>
         <image name="aboutIcon" width="105" height="93"/>
-        <image name="aboutUs" width="375" height="623"/>
+        <image name="aboutUs" width="375" height="550"/>
         <image name="addPokemon" width="153" height="153"/>
         <image name="arrow-1" width="16" height="25"/>
         <image name="backButton" width="14" height="25"/>
