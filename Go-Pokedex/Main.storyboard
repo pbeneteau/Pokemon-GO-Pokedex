@@ -1225,28 +1225,21 @@
                         <viewControllerLayoutGuide type="bottom" id="cmh-CF-jBd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GPx-Qn-rzs">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abouts us view..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAU-an-9rX">
-                                <rect key="frame" x="93" y="249" width="134" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aboutUs" translatesAutoresizingMaskIntoConstraints="NO" id="O5i-MM-1rs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1529411765" green="0.68235294120000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="WAU-an-9rX" firstAttribute="centerX" secondItem="GPx-Qn-rzs" secondAttribute="centerX" id="9wm-d3-XOA"/>
-                            <constraint firstItem="WAU-an-9rX" firstAttribute="top" secondItem="JoK-L3-xGd" secondAttribute="bottom" constant="249" id="P2p-hR-anj"/>
-                            <constraint firstItem="WAU-an-9rX" firstAttribute="leading" secondItem="GPx-Qn-rzs" secondAttribute="leadingMargin" constant="77" id="qQb-QS-IsB"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Uxd-A0-xG9"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f5k-N3-Hpv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="545" y="2221"/>
+            <point key="canvasLocation" x="544.5" y="2220.5"/>
         </scene>
         <!--ITEMS-->
         <scene sceneID="0Xo-aG-gYr">
@@ -2816,11 +2809,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iGa-c2-GmT">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="17"/>
                                                     <subviews>
-                                                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" progress="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="Yy7-fr-uHP">
-                                                            <rect key="frame" x="1" y="0.0" width="375" height="17"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="17" id="dqB-J5-f3H"/>
-                                                            </constraints>
+                                                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="Yy7-fr-uHP">
+                                                            <rect key="frame" x="0.0" y="0.0" width="375" height="17"/>
                                                             <color key="progressTintColor" red="1" green="0.5112149788" blue="0.85900223570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </progressView>
@@ -2834,13 +2824,13 @@
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="trailing" secondItem="Yy7-fr-uHP" secondAttribute="trailing" constant="-1" id="5E0-GR-LuW"/>
+                                                        <constraint firstItem="Yy7-fr-uHP" firstAttribute="leading" secondItem="iGa-c2-GmT" secondAttribute="leading" id="763-73-E4e"/>
                                                         <constraint firstItem="bDT-EE-dAy" firstAttribute="leading" secondItem="iGa-c2-GmT" secondAttribute="leading" constant="8" id="8RF-Wu-ZHU"/>
-                                                        <constraint firstItem="bDT-EE-dAy" firstAttribute="top" secondItem="Yy7-fr-uHP" secondAttribute="top" id="QJV-2I-uae"/>
-                                                        <constraint firstItem="Yy7-fr-uHP" firstAttribute="trailing" secondItem="bDT-EE-dAy" secondAttribute="trailing" constant="1" id="Zed-br-mkB"/>
-                                                        <constraint firstItem="Yy7-fr-uHP" firstAttribute="top" secondItem="iGa-c2-GmT" secondAttribute="top" id="iRS-tF-KDU"/>
+                                                        <constraint firstItem="Yy7-fr-uHP" firstAttribute="top" secondItem="bDT-EE-dAy" secondAttribute="top" id="Kej-nm-9Km"/>
+                                                        <constraint firstItem="Yy7-fr-uHP" firstAttribute="top" secondItem="iGa-c2-GmT" secondAttribute="top" id="Qz0-vt-zbe"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Yy7-fr-uHP" secondAttribute="trailing" id="RGb-XC-kI7"/>
                                                         <constraint firstAttribute="bottom" secondItem="bDT-EE-dAy" secondAttribute="bottom" id="iRa-h1-mEl"/>
-                                                        <constraint firstItem="bDT-EE-dAy" firstAttribute="leading" secondItem="Yy7-fr-uHP" secondAttribute="leading" constant="7" id="qVb-LS-TOR"/>
+                                                        <constraint firstItem="Yy7-fr-uHP" firstAttribute="trailing" secondItem="bDT-EE-dAy" secondAttribute="trailing" id="j0d-go-xS0"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -2865,11 +2855,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ig-fo-1P3">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="17"/>
                                                     <subviews>
-                                                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" progress="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="D1F-p0-IrI">
-                                                            <rect key="frame" x="1" y="0.0" width="375" height="17"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="17" id="rGB-Jb-Dq5"/>
-                                                            </constraints>
+                                                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="D1F-p0-IrI">
+                                                            <rect key="frame" x="0.0" y="0.0" width="375" height="17"/>
                                                             <color key="progressTintColor" red="0.17807602959999999" green="0.7696736099" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </progressView>
@@ -2882,13 +2869,13 @@
                                                         </label>
                                                     </subviews>
                                                     <constraints>
+                                                        <constraint firstItem="D1F-p0-IrI" firstAttribute="trailing" secondItem="w02-gN-EZd" secondAttribute="trailing" id="3ZE-aP-dEb"/>
                                                         <constraint firstAttribute="trailing" secondItem="w02-gN-EZd" secondAttribute="trailing" id="BAy-sl-aXN"/>
                                                         <constraint firstAttribute="bottom" secondItem="w02-gN-EZd" secondAttribute="bottom" id="I25-TD-gAu"/>
-                                                        <constraint firstItem="D1F-p0-IrI" firstAttribute="leading" secondItem="9Ig-fo-1P3" secondAttribute="leading" constant="1" id="SHI-6X-oeQ"/>
-                                                        <constraint firstAttribute="trailing" secondItem="D1F-p0-IrI" secondAttribute="trailing" constant="-1" id="YOq-4h-82k"/>
+                                                        <constraint firstItem="D1F-p0-IrI" firstAttribute="leading" secondItem="9Ig-fo-1P3" secondAttribute="leading" id="OlF-GU-RSG"/>
+                                                        <constraint firstItem="D1F-p0-IrI" firstAttribute="top" secondItem="9Ig-fo-1P3" secondAttribute="top" id="bAx-vK-fom"/>
                                                         <constraint firstItem="w02-gN-EZd" firstAttribute="leading" secondItem="9Ig-fo-1P3" secondAttribute="leading" constant="8" id="bUD-Al-LzA"/>
-                                                        <constraint firstItem="D1F-p0-IrI" firstAttribute="top" secondItem="9Ig-fo-1P3" secondAttribute="top" id="gfw-cd-2Yx"/>
-                                                        <constraint firstItem="w02-gN-EZd" firstAttribute="top" secondItem="D1F-p0-IrI" secondAttribute="top" id="uZI-zb-hi5"/>
+                                                        <constraint firstItem="D1F-p0-IrI" firstAttribute="top" secondItem="w02-gN-EZd" secondAttribute="top" id="zye-5B-A9R"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -3214,6 +3201,7 @@
         <image name="PokemonBackground" width="177" height="189"/>
         <image name="SplashScreen" width="320" height="568"/>
         <image name="aboutIcon" width="105" height="93"/>
+        <image name="aboutUs" width="375" height="627"/>
         <image name="addPokemon" width="153" height="153"/>
         <image name="arrow-1" width="16" height="25"/>
         <image name="backButton" width="14" height="25"/>

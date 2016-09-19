@@ -86,7 +86,7 @@
         </view>
     </objects>
     <resources>
-        <image name="145.png" width="135" height="38"/>
+        <image name="145.png" width="280" height="300"/>
         <image name="share" width="30" height="30"/>
     </resources>
 </document>
