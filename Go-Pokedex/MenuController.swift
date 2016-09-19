@@ -13,9 +13,10 @@ func createrMenu(view: UIView) ->PathMenu{
     let menuItemImage = UIImage(named: "pokeball-1")!
     let menuItemHighlitedImage = UIImage(named: "pokeball-1")!
     
-    let pokedexMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "pokedex-1")!)
+    
     let backpackMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "backpack-1")!)
     let tipsMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "tips-1")!)
+    let pokedexMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "pokedex-1")!)
     let ivMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "IV")!)
     let settingsMenuItem = PathMenuItem(image: menuItemImage, highlightedImage: menuItemHighlitedImage, contentImage: UIImage(named: "Settings-1")!)
     
@@ -53,14 +54,14 @@ extension MenuViewController: PathMenuDelegate {
             self.settingsContainer.hidden = true
         case 1:
             self.itemsContainer.hidden = true
-            self.pokedexContainer.hidden = false
-            self.tipsContainer.hidden = true
+            self.pokedexContainer.hidden = true
+            self.tipsContainer.hidden = false
             self.ivContainer.hidden = true
             self.settingsContainer.hidden = true
         case 2:
             self.itemsContainer.hidden = true
-            self.pokedexContainer.hidden = true
-            self.tipsContainer.hidden = false
+            self.pokedexContainer.hidden = false
+            self.tipsContainer.hidden = true
             self.ivContainer.hidden = true
             self.settingsContainer.hidden = true
         case 3:

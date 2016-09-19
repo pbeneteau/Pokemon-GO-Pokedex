@@ -23,9 +23,6 @@ class DemoCell: FoldingCell {
     @IBOutlet weak var _backgroundHeader: UIImageView!
     
     @IBOutlet weak var _img2: UIImageView!
-    @IBOutlet weak var _weightLabel: UILabel!
-    
-    @IBOutlet weak var _heightLabel: UILabel!
     @IBOutlet weak var _nameLabel2: UILabel!
     
     @IBOutlet weak var typeCase1View: UIView!
@@ -73,8 +70,6 @@ class DemoCell: FoldingCell {
         self._description.textAlignment = .Center
         self._imgBack.backgroundColor = pokemon.types[0].color
         self._barView.backgroundColor = pokemon.types[0].color
-        self._heightLabel.text = pokemon.height
-        self._weightLabel.text = pokemon.weight
         self._backgroundHeader.image = UIImage(named: "\(pokemon.types[0].name).jpg")
         self.noEvolutionLabel.hidden = true
     }

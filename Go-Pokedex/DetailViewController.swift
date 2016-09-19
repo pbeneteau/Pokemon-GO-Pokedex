@@ -16,8 +16,7 @@ class DetailViewController: UITableViewController, GADInterstitialDelegate {
     
     
     // Header
-    @IBOutlet weak var weightLabel: UILabel!
-    @IBOutlet weak var heightLabel: UILabel!
+    
     @IBOutlet weak var jumpsMinLabel: UILabel!
     @IBOutlet weak var jumpsDurationLabel: UILabel!
     
@@ -69,8 +68,7 @@ class DetailViewController: UITableViewController, GADInterstitialDelegate {
     
     func initGeneralStats() {
         // DESCRIPTION
-        self.weightLabel.text = "Weight: \(pokemon.weight)kg"
-        self.heightLabel.text = "Height: \(pokemon.height)m"
+        
         self.jumpsMinLabel.text = "Jumps/min: \(pokemon.jumps) jumps"
         self.jumpsDurationLabel.text = "Jumps duration: \(pokemon.jumpDuration)s"
         // RARETY
